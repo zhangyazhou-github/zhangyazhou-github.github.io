@@ -1,0 +1,591 @@
+{
+  // VScode主题配置
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.cursorBlinking": "smooth",
+  "editor.formatOnSave": false,
+  "editor.snippetSuggestions": "top",
+  "editor.wordWrapColumn": 100,
+  "editor.wordWrap": "off",
+  "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  // 启用/禁用导航路径
+  "breadcrumbs.enabled": true,
+  // 迷你地图宽度
+  "editor.minimap.maxColumn": 20,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  // 保存时自动格式化
+  "editor.formatOnPaste": false,
+  "javascript.suggestionActions.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // "javascript.implicitProjectConfig.experimentalDecorators": true,
+  // 安装了Eslint插件后，是否启用该插件
+  "typescript.validate.enable": true,
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  // 配置emmet是否启用tab展开缩写
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  //  #去掉代码结尾的分号
+  "prettier.semi": true,
+  //  #使用带引号替代双引号
+  "prettier.singleQuote": true,
+  "editor.lineHeight": 24,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnType": true,
+  "files.trimFinalNewlines": true,
+  "window.zoomLevel": 0,
+  "html.format.wrapAttributes": "preserve-aligned",
+  // vue 格式化
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.fontLigatures": true,
+  "terminal.integrated.cursorBlinking": true,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.fontFamily": "Consolas",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.lineHeight": 1.2,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html",
+    "javascript": "javascriptreact"
+  },
+  // 配置emmet对文件类型的支持
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html",
+    "javascript": "javascriptreact",
+    "JavaScript React": "jsx",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "workbench.iconTheme": "vscode-icons",
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  //  #让函数(名)和后面的括号之间加个空格
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    },
+    "prettier": {
+      "semi": false,
+      "singleQuote": true
+    }
+  },
+  "git.confirmSync": false,
+  // 配置gitlen中git提交历史记录的信息显示情况
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  // VScode 文件搜索区域配置
+  "search.exclude": {
+    "**/dist": false,
+    "**/build": true,
+    "**/elehukouben": true,
+    "**/.git": false,
+    "**/.gitignore": false,
+    "**/.svn": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/.vscode": false,
+    "**/yarn.lock": true,
+    "**/tmp": true
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "update.mode": "manual",
+  "update.enableWindowsBackgroundUpdates": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "timeline.excludeSources": ["git-history"],
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.foldingStrategy": "indentation",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "minapp-vscode.wxmlFormatter": "prettyHtml",
+  "tabnine.experimentalAutoImports": true,
+  "vetur.ignoreProjectWarning": true,
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "workbench.colorTheme": "Viow Neon",
+  // 编辑器样式设置
+  "workbench.colorCustomizations": {
+    // // 选中tab背景色
+    // "tab.activeBackground": "#1b1b1b",
+    // // 选中tab前景色
+    // "tab.activeForeground": "#e4e4e4",
+    // // 非选中tab背景色
+    // "tab.inactiveBackground": "#2f353b",
+    // // 非选中tab前景色
+    // // "tab.inactiveForeground": "#fff",
+    // // 右侧功能栏背景色
+    // "activityBar.background": "#24292e",
+    // // 功能栏icon颜色
+    // "activityBar.foreground": "#fff",
+    // // 文件栏背景色
+    // "sideBar.background": "#202020",
+    // // 文件栏前景色
+    // "sideBar.foreground": "#d4d4d4",
+    // // 编辑区背景色
+    // "editor.background": "#1e1e1e",
+    // // 状态栏背景色
+    // "statusBar.background": "#24292e"
+    // --------------------------------------------------------------
+    // 默认代码颜色
+    // "editor.foreground": "#a3a19f"
+    // 编辑器所选内容的颜色
+    // "editor.selectionBackground": "#fff"
+    // 与所选内容具有相同内容的区域颜色
+    // "editor.selectionHighlightBackground": "#fff"
+    // 编辑器光标颜色
+    // "editorCursor.foreground": "#fff"
+    // 当前搜索匹配项的颜色
+    // "editor.findMatchBackground": "#986974"
+    // 其他搜索匹配项的颜色
+    // "editor.findMatchHighlightBackground": "#986974"
+  },
+  "editor.tokenColorCustomizations": {
+    // // 注释颜色
+    // "comments": "#7e3648",
+    // // 字符串
+    // "strings": "#519657",
+    // // 函数名
+    // "functions": "#759e4e",
+    // // 关键字
+    // "keywords": "#568491",
+    // // 变量名
+    // "variables": "#945357",
+    // // 数值
+    // "numbers": "#e62020",
+    // // 函数参数
+    // "parameters": "#000",
+    "textMateRules": [
+      // 详细样式设置
+      // {
+      //   "name": "Character",
+      //   "scope": ["constant", "constant.character"],
+      //   "settings": {
+      //     "foreground": "#008000"
+      //   }
+      // },
+      // {
+      //   "name": "Class",
+      //   "scope": [
+      //     "entity.name.type",
+      //     "entity.other.inherited-class",
+      //     "support.class"
+      //   ],
+      //   "settings": {
+      //     "foreground": "#000080"
+      //   }
+      // },
+      // {
+      //   "name": "Comment",
+      //   "scope": ["comment", "punctuation.definition.comment"],
+      //   "settings": {
+      //     "fontStyle": "italic",
+      //     "foreground": "#0066ff"
+      //   }
+      // },
+      // {
+      //   "name": "Function",
+      //   "scope": ["entity.name.function", "support.function"],
+      //   "settings": {
+      //     "foreground": "#000000"
+      //   }
+      // },
+      // {
+      //   "name": "Keyword",
+      //   "scope": ["keyword", "storage"],
+      //   "settings": {
+      //     "fontStyle": "bold",
+      //     "foreground": "#000080"
+      //   }
+      // },
+      // {
+      //   "name": "Number",
+      //   "scope": ["constant.numeric"],
+      //   "settings": {
+      //     "foreground": "#0044bb"
+      //   }
+      // },
+      // {
+      //   "name": "Operator",
+      //   "scope": "keyword.operator",
+      //   "settings": {
+      //     "foreground": "#000000"
+      //   }
+      // },
+      // {
+      //   "name": "Parameter",
+      //   "scope": "variable.parameter",
+      //   "settings": {
+      //     "fontStyle": "underline"
+      //   }
+      // },
+      // {
+      //   "name": "Punctuation",
+      //   "scope": "punctuation",
+      //   "settings": {
+      //     "foreground": "#000000"
+      //   }
+      // },
+      // {
+      //   "name": "String",
+      //   "scope": "string",
+      //   "settings": {
+      //     "foreground": "#008000"
+      //   }
+      // },
+      // {
+      //   "name": "Type",
+      //   "scope": ["storage.type", "support.type"],
+      //   "settings": {
+      //     "fontStyle": "",
+      //     "foreground": "#000080"
+      //   }
+      // },
+      // {
+      //   "name": "Variable",
+      //   "scope": ["support.variable", "variable"],
+      //   "settings": {
+      //     "foreground": "#000000"
+      //   }
+      // },
+      // // Other token colors.
+      // {
+      //   "name": "Comments: Preprocessor",
+      //   "scope": "comment.block.preprocessor",
+      //   "settings": {
+      //     "fontStyle": "",
+      //     "foreground": "#AAAAAA"
+      //   }
+      // },
+      // {
+      //   "name": "Comments: Documentation",
+      //   "scope": ["comment.documentation", "comment.block.documentation"],
+      //   "settings": {
+      //     "foreground": "#448C27"
+      //   }
+      // },
+      // {
+      //   "name": "Invalid - Deprecated",
+      //   "scope": "invalid.deprecated",
+      //   "settings": {}
+      // },
+      // {
+      //   "name": "Invalid - Illegal",
+      //   "scope": "invalid.illegal",
+      //   "settings": {
+      //     "foreground": "#660000"
+      //   }
+      // },
+      // {
+      //   "name": "Language Constants",
+      //   "scope": ["constant.language", "support.constant", "variable.language"],
+      //   "settings": {
+      //     "foreground": "#AB6526"
+      //   }
+      // },
+      // {
+      //   "name": "Exceptions",
+      //   "scope": "entity.name.exception",
+      //   "settings": {
+      //     "foreground": "#660000"
+      //   }
+      // },
+      // {
+      //   "name": "Sections",
+      //   "scope": "entity.name.section",
+      //   "settings": {
+      //     "fontStyle": "bold"
+      //   }
+      // },
+      // {
+      //   "name": "Strings: Escape Sequences",
+      //   "scope": "constant.character.escape",
+      //   "settings": {
+      //     "foreground": "#777777"
+      //   }
+      // },
+      // {
+      //   "name": "Strings: Regular Expressions",
+      //   "scope": "string.regexp",
+      //   "settings": {
+      //     "foreground": "#4B83CD"
+      //   }
+      // },
+      // {
+      //   "name": "Strings: Symbols",
+      //   "scope": "constant.other.symbol",
+      //   "settings": {
+      //     "foreground": "#AB6526"
+      //   }
+      // },
+      // {
+      //   "name": "Embedded Source",
+      //   "scope": ["string source", "text source"],
+      //   "settings": {}
+      // },
+      // {
+      //   "name": "HTML: Doctype Declaration",
+      //   "scope": [
+      //     "meta.tag.sgml.doctype",
+      //     "meta.tag.sgml.doctype string",
+      //     "meta.tag.sgml.doctype entity.name.tag",
+      //     "meta.tag.sgml punctuation.definition.tag.html"
+      //   ],
+      //   "settings": {
+      //     "foreground": "#AAAAAA"
+      //   }
+      // },
+      // {
+      //   "name": "HTML: Tags",
+      //   "scope": [
+      //     "meta.tag",
+      //     "punctuation.definition.tag.html",
+      //     "punctuation.definition.tag.begin.html",
+      //     "punctuation.definition.tag.end.html"
+      //   ],
+      //   "settings": {
+      //     "foreground": "#91B3E0"
+      //   }
+      // },
+      // {
+      //   "name": "HTML: Tag Names",
+      //   "scope": "entity.name.tag",
+      //   "settings": {
+      //     "foreground": "#4B83CD"
+      //   }
+      // },
+      // {
+      //   "name": "HTML: Attribute Names",
+      //   "scope": [
+      //     "meta.tag entity.other.attribute-name",
+      //     "entity.other.attribute-name.html"
+      //   ],
+      //   "settings": {
+      //     "fontStyle": "italic",
+      //     "foreground": "#91B3E0"
+      //   }
+      // },
+      // {
+      //   "name": "HTML: Entities",
+      //   "scope": ["constant.character.entity", "punctuation.definition.entity"],
+      //   "settings": {
+      //     "foreground": "#AB6526"
+      //   }
+      // },
+      // {
+      //   "name": "CSS: Selectors",
+      //   "scope": [
+      //     "meta.selector",
+      //     "meta.selector entity",
+      //     "meta.selector entity punctuation",
+      //     "entity.name.tag.css"
+      //   ],
+      //   "settings": {
+      //     "foreground": "#7A3E9D"
+      //   }
+      // },
+      // {
+      //   "name": "CSS: Property Names",
+      //   "scope": ["meta.property-name", "support.type.property-name"],
+      //   "settings": {
+      //     "foreground": "#AB6526"
+      //   }
+      // },
+      // {
+      //   "name": "CSS: Property Values",
+      //   "scope": [
+      //     "meta.property-value",
+      //     "meta.property-value constant.other",
+      //     "support.constant.property-value"
+      //   ],
+      //   "settings": {
+      //     "foreground": "#448C27"
+      //   }
+      // },
+      // {
+      //   "name": "CSS: Important Keyword",
+      //   "scope": "keyword.other.important",
+      //   "settings": {
+      //     "fontStyle": "bold"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Changed",
+      //   "scope": "markup.changed",
+      //   "settings": {
+      //     "background": "#FFFFDD",
+      //     "foreground": "#000000"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Deletion",
+      //   "scope": "markup.deleted",
+      //   "settings": {
+      //     "background": "#FFDDDD",
+      //     "foreground": "#000000"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Emphasis",
+      //   "scope": "markup.italic",
+      //   "settings": {
+      //     "fontStyle": "italic"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Error",
+      //   "scope": "markup.error",
+      //   "settings": {
+      //     "background": "#96000014",
+      //     "foreground": "#660000"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Insertion",
+      //   "scope": "markup.inserted",
+      //   "settings": {
+      //     "background": "#DDFFDD",
+      //     "foreground": "#000000"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Link",
+      //   "scope": "meta.link",
+      //   "settings": {
+      //     "foreground": "#4B83CD"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Output",
+      //   "scope": ["markup.output", "markup.raw"],
+      //   "settings": {
+      //     "foreground": "#777777"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Prompt",
+      //   "scope": "markup.prompt",
+      //   "settings": {
+      //     "foreground": "#777777"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Heading",
+      //   "scope": "markup.heading",
+      //   "settings": {
+      //     "foreground": "#AA3731"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Strong",
+      //   "scope": "markup.bold",
+      //   "settings": {
+      //     "fontStyle": "bold"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Traceback",
+      //   "scope": "markup.traceback",
+      //   "settings": {
+      //     "foreground": "#660000"
+      //   }
+      // },
+      // {
+      //   "name": "Markup: Underline",
+      //   "scope": "markup.underline",
+      //   "settings": {
+      //     "fontStyle": "underline"
+      //   }
+      // },
+      // {
+      //   "name": "Markup Quote",
+      //   "scope": "markup.quote",
+      //   "settings": {
+      //     "foreground": "#7A3E9D"
+      //   }
+      // },
+      // {
+      //   "name": "Markup Lists",
+      //   "scope": "markup.list",
+      //   "settings": {
+      //     "foreground": "#4B83CD"
+      //   }
+      // },
+      // {
+      //   "name": "Markup Styling",
+      //   "scope": ["markup.bold", "markup.italic"],
+      //   "settings": {
+      //     "foreground": "#448C27"
+      //   }
+      // },
+      // {
+      //   "name": "Markup Inline",
+      //   "scope": "markup.inline.raw",
+      //   "settings": {
+      //     "fontStyle": "",
+      //     "foreground": "#AB6526"
+      //   }
+      // },
+      // {
+      //   "name": "Extra: Diff Range",
+      //   "scope": ["meta.diff.range", "meta.diff.index", "meta.separator"],
+      //   "settings": {
+      //     "foreground": "#434343"
+      //   }
+      // },
+      // {
+      //   "name": "Extra: Diff From",
+      //   "scope": "meta.diff.header.from-file",
+      //   "settings": {
+      //     "foreground": "#434343"
+      //   }
+      // },
+      // {
+      //   "name": "Extra: Diff To",
+      //   "scope": "meta.diff.header.to-file",
+      //   "settings": {
+      //     "foreground": "#434343"
+      //   }
+      // }
+    ]
+  },
+  "EasyMock.serverPort": 8989,
+  "EasyMock.responseTime": 6,
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "wxmlConfig.onSaveFormat": false,
+  "z-reader.onlineSite": "笔趣阁",
+  "prettier.printWidth": 100
+}
